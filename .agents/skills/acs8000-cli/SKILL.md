@@ -15,6 +15,10 @@ Use this workflow to translate natural language requests into proper CLI command
    - Use `pwd`, `ls`, and `show` to inspect current location and values.
    - Use `cd <space><tab><tab>` to discover valid path elements at any level.
    - Use `<tab><tab>` to discover command options elements at any level.
+   - When `-- MORE --:` is displayed at the end of a partial `ls` listing:
+     - <cr> causes the page to advance
+     - `q`<cr> causes the `ls` command to exit
+   
 3. Make configuration changes explicitly.
    - Use `set <parameter>=<value>` for parameter updates.
    - Use `add <path>` to add a node.
